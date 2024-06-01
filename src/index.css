@@ -8,12 +8,11 @@
   }
   *{
     box-sizing:border-box;
-    font-size:12.5px;
     font-family:"Oswald";
     text-align:center;
     margin:0px;
     padding:0px;
-    color:var(--color1)
+    color:var(--color3)
   }
   
   #background{
