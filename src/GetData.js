@@ -1,5 +1,5 @@
 import useSWR from 'swr';
-import Graph from './Graph.js'
+import Map from './Map.js'
 import Loading from "./Loading.js"
 import Error from "./Error.js"
 

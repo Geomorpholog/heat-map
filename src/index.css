@@ -1,0 +1,48 @@
+:root{
+    --background1:#E0D0C3;
+    --background2:#C9C3E0;
+    --background3:#C3E0C3;
+    --color1:#538B53;
+    --color2:#61422A;
+    --color3:#342A61;
+  }
+  *{
+    box-sizing:border-box;
+    font-size:12.5px;
+    font-family:"Oswald";
+    text-align:center;
+    margin:0px;
+    padding:0px;
+    color:var(--color1)
+  }
+  
+  #background{
+    width:100vw;
+    height:100vh;
+    background-color:var(--background);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @keyframes rot{ 
+    from{
+      transform: rotate(0deg);} 
+    to{
+      transform: rotate(360deg);}
+   }
+  
+  #load{ 
+    width:150px;
+    height:150px;
+    animation:3s linear 3s infinite rot;
+  }
+  
+  #tooltip{
+    padding:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align:left;
+  }
