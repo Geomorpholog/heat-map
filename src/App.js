@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import GetData from './GetData.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id ="background">
+      <h4 id ="title">Doping in Professional Bicycle Racing</h4>
+      <GetData
+      url = "https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json"
+      width = {window.innerWidth - 50 }
+      height = {window.innerHeight - 50 }
+      padding = {50}
+       />
     </div>
-  );
+    
+    
+  )
 }
 
 export default App;
